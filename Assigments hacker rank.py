@@ -59,7 +59,7 @@ Print the reversed result.
 def reverse(strings):
     str = ""
     for i in strings:
-      str = strings[::-1]
+      str = i + strings
     print(str)
 
 
